@@ -1,15 +1,9 @@
-list_ = ["BMW", "MB", "LADA", "KIA", "HONDA"]
-my_string_ = ("Я езжу на автомобиле марки")
-for i in range(len(list_)):
-    print(my_string_,(list_[i]))
-
-list_ = ["BMW", "MB", "LADA", "KIA", "HONDA"]
+cars = ["BMW", "MB", "LADA", "KIA", "HONDA"]
 my_string_ = ("Я езжу на автомобиле марки")
 cars_count = 0
-for i in range(len(list_)):
+for i in range(len(cars)):
     cars_count += 10
-    print(my_string_,cars_count, (list_[i]))
-
+    print(my_string_,cars_count, (cars[i]))
 
 
 
